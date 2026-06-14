@@ -1,0 +1,45 @@
+### Login and obtain JWT
+POST {{StudioBooking.Api_HostAddress}}/api/auth/login
+Content-Type: application/json
+
+{
+  "email": "user1@studiobooking.test",
+  "password": "Password123!"
+}
+
+### Get packages (requires token)
+GET {{StudioBooking.Api_HostAddress}}/api/packages
+Authorization: Bearer {{token}}
+
+### Get timetable
+GET {{StudioBooking.Api_HostAddress}}/api/timetable?businessId=1&date=2026-06-14
+Authorization: Bearer {{token}}
+
+### Book class
+POST {{StudioBooking.Api_HostAddress}}/api/bookings
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "scheduleId": 3,
+  "packageId": 1
+}
+
+### Join waitlist
+POST {{StudioBooking.Api_HostAddress}}/api/waitlist
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "scheduleId": 2,
+  "packageId": 9
+}
+
+### Cancel booking
+POST {{StudioBooking.Api_HostAddress}}/api/bookings/cancel
+Authorization: Bearer {{token}}
+Content-Type: application/json
+
+{
+  "bookingId": 1
+}

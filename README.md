@@ -253,9 +253,9 @@ Waitlist entries are **not** stored in Redis. Only packages and timetable respon
 
 ## Database Schema
 
-See [docs/schema.md](docs/schema.md) for table definitions and SQL queries.  
-**Draw.io ERD:** [docs/studio-booking-erd.drawio](docs/studio-booking-erd.drawio)
-**Static ERD:** [docs/studio-booking-erd.png](docs/studio-booking-erd.png)
+See [docs/schema.md](https://github.com/KhantThuraSoe/Studio-Booking/blob/main/StudioBooking/docs/schema.md) for table definitions and SQL queries.  
+**Draw.io ERD:** ([docs/studio-booking-erd.drawio](https://github.com/KhantThuraSoe/Studio-Booking/blob/main/StudioBooking/docs/studio-booking-erd.drawio))
+**Static ERD:** [docs/studio-booking-erd.png](https://github.com/KhantThuraSoe/Studio-Booking/blob/main/StudioBooking/docs/studio-booking-erd.png)
 ## EF Migrations
 
 ```bash

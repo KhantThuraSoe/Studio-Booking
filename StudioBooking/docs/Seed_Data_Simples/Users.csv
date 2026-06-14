@@ -1,0 +1,11 @@
+Id,Email,FullName,PasswordHash
+1,user1@studiobooking.test,"Test User 1",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+2,user2@studiobooking.test,"Test User 2",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+3,user3@studiobooking.test,"Test User 3",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+4,user4@studiobooking.test,"Test User 4",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+5,user5@studiobooking.test,"Test User 5",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+6,user6@studiobooking.test,"Test User 6",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+7,user7@studiobooking.test,"Test User 7",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+8,user8@studiobooking.test,"Test User 8",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+9,user9@studiobooking.test,"Test User 9",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
+10,user10@studiobooking.test,"Test User 10",$2a$11$lb/uZvhTS8fRaEXXI7LxXu3MnkMHiYO5T3HeXs37oIKeSOJLwLrDW
